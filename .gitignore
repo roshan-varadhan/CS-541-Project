@@ -1,0 +1,6 @@
+llm-data-quality/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/"llm-data-quality/" 
+".env" 
