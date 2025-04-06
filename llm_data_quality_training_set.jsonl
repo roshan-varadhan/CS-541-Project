@@ -1,0 +1,105 @@
+{"prompt": "Analyze the following row: {'CRIM': 0.57, 'RM': -4.3, 'TAX': 400, 'RAD': 1}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.56, 'RM': 8.3, 'TAX': -300, 'RAD': 20}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.48, 'RM': 'unknown', 'TAX': 400, 'RAD': 12}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.04, 'RM': 6.0, 'TAX': 'unknown', 'RAD': 4}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': None, 'RM': 8.8, 'TAX': 300, 'RAD': 3}", "response": "Missing value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.37, 'RM': 6.4, 'TAX': -300, 'RAD': 21}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.94, 'RM': 9.0, 'TAX': 300, 'RAD': -17}", "response": "Negative value in column 'RAD', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.63, 'RM': 4.5, 'TAX': -300, 'RAD': 2}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.2, 'RM': 8.2, 'TAX': 300, 'RAD': 14}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.36, 'RM': 5.3, 'TAX': 400, 'RAD': -11}", "response": "Negative value in column 'RAD', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': -0.53, 'RM': 5.8, 'TAX': 200, 'RAD': 22}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.24, 'RM': 7.1, 'TAX': None, 'RAD': 11}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.26, 'RM': 6.3, 'TAX': 400, 'RAD': 22}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 50.0, 'TAX': 400, 'RAD': 21}", "response": "Unusually high value in column 'RM', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.91, 'RM': 5.7, 'TAX': 'unknown', 'RAD': 15}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.59, 'RM': 8.1, 'TAX': 200, 'RAD': 13}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.86, 'RM': 4.7, 'TAX': 500, 'RAD': 12}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 'unknown', 'RM': 5.9, 'TAX': 600, 'RAD': 17}", "response": "Non-numeric value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.12, 'RM': 8.3, 'TAX': 600, 'RAD': 16}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': -0.35, 'RM': 7.1, 'TAX': 300, 'RAD': 6}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.63, 'RM': 7.2, 'TAX': -300, 'RAD': 9}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.73, 'RM': 5.9, 'TAX': 666, 'RAD': 8}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.57, 'RM': 4.1, 'TAX': None, 'RAD': 11}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.15, 'RM': 7.1, 'TAX': 200, 'RAD': 10}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.6, 'RM': 'unknown', 'TAX': 300, 'RAD': 19}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.83, 'RM': 7.5, 'TAX': 600, 'RAD': 1}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.35, 'RM': -7.4, 'TAX': 500, 'RAD': 18}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 1.0, 'RM': 'unknown', 'TAX': 500, 'RAD': 16}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': None, 'RM': 5.0, 'TAX': 500, 'RAD': 13}", "response": "Missing value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.4, 'RM': 4.5, 'TAX': 666, 'RAD': None}", "response": "Missing value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': -0.83, 'RM': 5.1, 'TAX': 400, 'RAD': 19}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.39, 'RM': -5.7, 'TAX': 666, 'RAD': 10}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.27, 'RM': None, 'TAX': 400, 'RAD': 10}", "response": "Missing value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 'unknown', 'RM': 7.7, 'TAX': 300, 'RAD': 11}", "response": "Non-numeric value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.25, 'RM': 4.1, 'TAX': 'unknown', 'RAD': 16}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.98, 'RM': None, 'TAX': 500, 'RAD': 9}", "response": "Missing value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.07, 'RM': 5.4, 'TAX': 5000, 'RAD': 18}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.64, 'RM': 5.3, 'TAX': 600, 'RAD': None}", "response": "Missing value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.42, 'RM': 4.6, 'TAX': 600, 'RAD': -19}", "response": "Negative value in column 'RAD', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.65, 'RM': 50.0, 'TAX': 666, 'RAD': 1}", "response": "Unusually high value in column 'RM', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.24, 'RM': 5.0, 'TAX': None, 'RAD': 4}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.59, 'RM': -6.5, 'TAX': 666, 'RAD': 19}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.74, 'RM': None, 'TAX': 500, 'RAD': 1}", "response": "Missing value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.39, 'RM': 4.8, 'TAX': 200, 'RAD': 2}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.81, 'RM': 7.8, 'TAX': 200, 'RAD': 24}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.93, 'RM': 6.0, 'TAX': 300, 'RAD': 'unknown'}", "response": "Non-numeric value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.09, 'RM': 4.7, 'TAX': 300, 'RAD': 'unknown'}", "response": "Non-numeric value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 'unknown', 'RM': 5.0, 'TAX': 300, 'RAD': 18}", "response": "Non-numeric value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.04, 'RM': 4.2, 'TAX': None, 'RAD': 8}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.16, 'RM': 7.7, 'TAX': -400, 'RAD': 20}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': -0.09, 'RM': 6.7, 'TAX': 600, 'RAD': 7}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.89, 'RM': None, 'TAX': 666, 'RAD': 12}", "response": "Missing value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.05, 'RM': 4.2, 'TAX': 500, 'RAD': 19}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.36, 'RM': 5.4, 'TAX': 5000, 'RAD': 9}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': -0.72, 'RM': 4.9, 'TAX': 200, 'RAD': 3}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.61, 'RM': 50.0, 'TAX': 666, 'RAD': 15}", "response": "Unusually high value in column 'RM', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.06, 'RM': 4.5, 'TAX': -600, 'RAD': 16}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.51, 'RM': 4.8, 'TAX': 'unknown', 'RAD': 15}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.72, 'RM': 6.1, 'TAX': 200, 'RAD': 1}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.56, 'RM': 6.4, 'TAX': 300, 'RAD': 4}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': -0.75, 'RM': 7.9, 'TAX': 300, 'RAD': 10}", "response": "Negative value in column 'CRIM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.78, 'RM': 4.7, 'TAX': None, 'RAD': 10}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.61, 'RM': 7.8, 'TAX': 400, 'RAD': 17}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.74, 'RM': 6.9, 'TAX': 300, 'RAD': 14}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.41, 'RM': 'unknown', 'TAX': 300, 'RAD': 5}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.64, 'RM': 8.6, 'TAX': 500, 'RAD': 5}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.27, 'RM': 7.8, 'TAX': 'unknown', 'RAD': 21}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.77, 'RM': 7.2, 'TAX': None, 'RAD': 3}", "response": "Missing value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.91, 'RM': 4.6, 'TAX': 400, 'RAD': 6}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.55, 'RM': 7.6, 'TAX': 600, 'RAD': 18}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.8, 'RM': 6.2, 'TAX': 'unknown', 'RAD': 2}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.61, 'RM': 7.2, 'TAX': 5000, 'RAD': 2}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.76, 'RM': 4.8, 'TAX': 5000, 'RAD': 16}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.28, 'RM': 4.5, 'TAX': -300, 'RAD': 24}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.58, 'RM': 50.0, 'TAX': 400, 'RAD': 18}", "response": "Unusually high value in column 'RM', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.83, 'RM': 5.5, 'TAX': 'unknown', 'RAD': 5}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.37, 'RM': 4.1, 'TAX': 'unknown', 'RAD': 22}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.7, 'RM': 'unknown', 'TAX': 200, 'RAD': 21}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.34, 'RM': 6.1, 'TAX': 400, 'RAD': 16}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.28, 'RM': 6.8, 'TAX': 500, 'RAD': None}", "response": "Missing value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.85, 'RM': 5.1, 'TAX': 500, 'RAD': 23}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.03, 'RM': 7.9, 'TAX': 400, 'RAD': 22}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': None, 'RM': 4.0, 'TAX': 300, 'RAD': 17}", "response": "Missing value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': None, 'RM': 7.7, 'TAX': 600, 'RAD': 1}", "response": "Missing value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.74, 'RM': -4.0, 'TAX': 200, 'RAD': 2}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.37, 'RM': 4.6, 'TAX': -500, 'RAD': 4}", "response": "Negative value in column 'TAX', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.9, 'RM': 4.8, 'TAX': 5000, 'RAD': 1}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 0.71, 'RM': 4.0, 'TAX': 300, 'RAD': 22}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.8, 'RM': -6.4, 'TAX': 500, 'RAD': 18}", "response": "Negative value in column 'RM', which should be non-negative."}
+{"prompt": "Analyze the following row: {'CRIM': 0.8, 'RM': 5.8, 'TAX': 300, 'RAD': 4}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.94, 'RM': 8.3, 'TAX': 666, 'RAD': 7}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.09, 'RM': 'unknown', 'TAX': 300, 'RAD': 17}", "response": "Non-numeric value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': None, 'RM': 4.2, 'TAX': 500, 'RAD': 18}", "response": "Missing value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.72, 'RM': 7.5, 'TAX': 5000, 'RAD': 12}", "response": "Unusually high value in column 'TAX', likely an outlier."}
+{"prompt": "Analyze the following row: {'CRIM': 'unknown', 'RM': 7.1, 'TAX': 500, 'RAD': 6}", "response": "Non-numeric value in column 'CRIM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.89, 'RM': None, 'TAX': 600, 'RAD': 3}", "response": "Missing value in column 'RM'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.39, 'RM': 6.6, 'TAX': 'unknown', 'RAD': 20}", "response": "Non-numeric value in column 'TAX'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.06, 'RM': 8.3, 'TAX': 500, 'RAD': 1}", "response": ""}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 8.5, 'TAX': 600, 'RAD': 12}", "response": "No issues detected."}
+{"prompt": "Analyze the following row: {'CRIM': 0.1, 'RM': 5.8, 'TAX': 666, 'RAD': 'unknown'}", "response": "Non-numeric value in column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 6.0, 'TAX': 300, 'RAD': 24, 'ZIP': '02138'}", "response": "Unexpected column 'ZIP' found in the row schema."}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 6.0, 'TAX': 300, 'RAD': 24, 'TAX': 300}", "response": "Duplicate column 'TAX' found in the row."}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 6.0, 'TAX': 300}", "response": "Missing expected column 'RAD'."}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 6.0, 'TAX': 300, 'RAD': 24, 'EXTRA': 'noise'}", "response": "Unexpected column 'EXTRA' found in the row schema."}
+{"prompt": "Analyze the following row: {'CRIM': 0.45, 'RM': 6.0, 'TAX': 300, 'RAD': 24}", "response": "No issues detected."}
