@@ -3,4 +3,3 @@ llm-data-quality/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/"llm-data-quality/" 
-".env" 

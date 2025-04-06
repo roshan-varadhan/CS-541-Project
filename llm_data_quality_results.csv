@@ -1,27 +1,28 @@
 index,issues
 0,"1. Missing value for 'RM' (located at index 'RM')
-    2. Inconsistent value for 'RM' as it should be a numerical value, but is currently 'nan' (located at index 'RM')
-    3. Inconsistent value for 'DIS' as it should be a numerical value, but is currently '4.09' (located at index 'DIS')
-    4. Inconsistent value for 'MEDV"
-1,"1. Missing value: 'ZN' is missing a value. It should be a numerical value, but instead, it is 0.0. This could be due to a mistake in data entry or a missing value in the original dataset.
-    2. Inconsistent value: 'CHAS' is also missing a value, but in this case, it is represented by a 0.0 instead of a null value. This could be a mistake in data cleaning or form"
+    2. Inconsistent value for 'RM' in previous rows (this data row is part of a larger dataset, and 'RM' values for nearby rows are not missing)
+    3. Inconsistent value for 'MEDV' (24.0 is significantly lower than the expected median value for this area)
+    4. Inconsistent value for 'LSTAT' (4"
+1,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the dictionary.
+    2. Inconsistent value: 'CHAS' has a value of 0.0, but this value is not consistent with the other data points in the dataset. 'CHAS' is a binary feature that should have a value of either 0 or 1. This is located in the third column of the dictionary.
+    3. Miss"
 2,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the dictionary.
     2. Inconsistent value: 'CHAS' should be either 0 or 1, but it is currently 0.0. This is located in the third column of the dictionary.
     3. Inconsistent value: 'NOX' should be a numerical value, but it is currently a decimal value (0.469"
-3,"1. Missing value: 'ZN' is missing a value. Its location is in the dictionary key 'ZN'.
-    2. Inconsistent value: 'CHAS' should be either 0 or 1, but it is 0.0, which is a floating-point number. Its location is in the dictionary key 'CHAS'.
-    3. Inconsistent value: 'B' is a float value instead of an integer. Its location is in"
-4,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the row.
-    2. Inconsistent value: 'CHAS' is a boolean variable that should be either 0 or 1. However, the value in this row is 0.0, which is not a valid boolean value. This is located in the fourth column of the row.
-    3. Inconsistent value: 'NOX' should be"
-5,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the dictionary.
-    2. Inconsistent value: 'CHAS' has a value of 0.0, but this variable is a binary feature that should take a value of either 0 or 1. This is located in the third column of the dictionary.
-    3. Inconsistent value: 'B' has a value of 394."
-6,"1. Missing value: 'CHAS' should be a binary value (0 or 1), but it is 0.0, which is not a valid value. Location: 'CHAS' column.
-    2. Inconsistent value: 'B' should be a numerical value, but it is 395.6, which is not a valid numerical value. Location: 'B' column.
-    3. Inconsistent value: 'LSTAT'"
-7,"1. Missing value: 'CHAS' should be a binary variable (0 or 1) indicating whether a given parcel is located in a region with Charles River (the river separating Cambridge from Boston) or not. However, the value for 'CHAS' in this row is 0.0, which is not a valid binary value. This could be a data entry error or a missing value, as the original dataset does not have any parcel located in the Charles River"
-8,"1. Missing value: The 'MEDV' value is 16.5, which is not a valid numerical value for median house prices. This could be due to an error in data entry or a mistake in the data source. Location: 'MEDV' key in the dictionary.
-    2. Inconsistent value: The 'AGE' value is 100.0, which is an unusually high value for the age of a house. This could be due"
-9,"1. Missing value: 'CHAS' should be a binary variable (0 or 1) indicating whether a particular location is in a 'CHAS'-protected area. However, the value for this variable is 0.0, which is not a valid binary value. This issue is located in the 'CHAS' key-value pair.
-    2. Inconsistent value: The 'RM' value is 6.004, which is not a whole"
+3,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the dictionary.
+    2. Inconsistent value: 'B' has an inconsistent value. While 'B' is a numerical value in the rest of the dataset, it is represented as a string in this row. This is located in the 14th column of the dictionary.
+    3. Inconsistent value: 'LSTAT' has an inconsistent"
+4,"1. Missing value: 'ZN' is missing a value. This is located in the second column of the dictionary.
+    2. Inconsistent value: 'CHAS' has a value of 0.0, which is unexpected as the 'CHAS' variable represents whether a particular street is in a chasm-prone area. This is located in the third column of the dictionary.
+    3. Inconsistent value: 'NOX' has a value"
+5,"1. Missing value: 'ZN' is missing a value. This is located at the second index of the dictionary.
+    2. Inconsistent value: 'CHAS' should be either 0 or 1, but it is currently 0.0. This is located at the fourth index of the dictionary.
+    3. Inconsistent value: 'NOX' should be a numerical value, but it is currently a decimal value (0.458"
+6,"1. Missing value: 'CHAS' should be a binary value (0 or 1) indicating whether a neighborhood is in a chasm or not. However, the value is 0.0, which is not a valid binary value. Location: 'CHAS' column.
+    2. Inconsistent value: 'RM' should be a measure of the average number of rooms per dwelling. However, the value is 6.012, which is not"
+7,"1. Missing value: 'CHAS' should be a binary value (0 or 1) indicating whether a particular property is located in a region with a significant amount of Charles River pollution. In this case, the value is 0.0, which is not a valid binary value.
+    2. Inconsistent value: 'MEDV' should be a continuous numerical value representing the median value of owner-occupied homes in a given census tract. In this case, the"
+8,"1. Missing value: 'CHAS' should be a binary value (0 or 1) indicating whether a given property is located in an area prone to flooding. However, this value is 0.0, which is not a valid binary value. This issue is located in the 'CHAS' key.
+    2. Inconsistent value: 'AGE' should be the median value of houses in a given area, but this value is 100."
+9,"1. Missing value: 'CHAS' should be a binary variable (0 or 1) indicating whether a given property is located in a region with a significant amount of Charles River pollution. However, the value for 'CHAS' in this row is 0.0, which is not a valid binary value. This could potentially cause issues in any analysis that relies on the 'CHAS' variable.
+    2. Inconsistent value: 'MEDV' should be"
